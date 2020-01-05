@@ -24,7 +24,7 @@ import getAppStore,
                 <App />
             </ConnectedRouter>
         </Provider>,
-        document.getElementById('root'));
+        document.getElementById('kanban-root'));
 
 })();
 
@@ -32,5 +32,5 @@ import getAppStore,
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-// serviceWorker.unregister();
-serviceWorker.register();
+serviceWorker.unregister();
+//serviceWorker.register();
