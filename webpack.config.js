@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'kanban-board-app.bundle.js'
+    filename: 'kanban_board.bundle.js'
   },
   module: {
     rules: [
